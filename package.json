@@ -1,7 +1,7 @@
 {
-  "name": "jq-console",
-  "version": "2.13.2",
-  "description": "Feature complete web terminal",
+  "name": "jq-console-altgr",
+  "version": "2.14.0",
+  "description": "Feature complete web terminal (with AltGr support)",
   "main": "jqconsole.min.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/replit/jq-console.git"
+    "url": "git://github.com/GeraldWodni/jq-console-altgr.git"
   },
   "keywords": [
     "jq-console",
@@ -23,7 +23,7 @@
   "author": "amasad",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/replit/jq-console/issues"
+    "url": "https://github.com/GeraldWodni/jq-console-altgr/issues"
   },
   "devDependencies": {
     "karma-coffee-preprocessor": "~0.1.2",

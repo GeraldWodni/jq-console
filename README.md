@@ -1,4 +1,9 @@
-# jq-console
+# jq-console-altgr
+
+_Note: this is a fork from [replit/jq-console](https://github.com/replit/jq-console) which applies a partially applies a [patch by pasieronen](https://github.com/replit/jq-console/pull/65/commits/06e61f746ab4a90ab88badad8713494b00d21485) to support
+the AltGr-key on non-US keyboards._
+
+_This allows to type square brackets as well as curly braces i.e. on a Austrian/German Keyboards_
 
 A jQuery terminal plugin written in CoffeeScript.
 
