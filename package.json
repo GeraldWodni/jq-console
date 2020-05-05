@@ -1,6 +1,6 @@
 {
   "name": "jq-console-altgr",
-  "version": "2.14.0",
+  "version": "2.15.0",
   "description": "Feature complete web terminal (with AltGr support)",
   "main": "jqconsole.min.js",
   "directories": {

@@ -926,7 +926,7 @@ class JQConsole
           @Write @GetPromptText(true) + NEWLINE, "#{CLASS_PREFIX}old-" + cls_suffix
           @ClearPromptText true
           if @history_active
-            if not @history.length or @history[@history.length - 1] != text
+            if (not @history.length or @history[@history.length - 1] != text) and not(@IgnoreInHistory && @IgnoreInHistory.length > 0 && @IgnoreInHistory.indexOf(text)>=0)
               @history.push text
             @history_index = @history.length
           @state = STATE_OUTPUT
